@@ -1,0 +1,42 @@
+*{	
+	box-sizing:border-box;  /*Mantiene el ancho que uno especifique independientemente  del padding que tenga el elemento,  *{es para todos los elementos }  */
+} 
+
+body{
+
+	font-family: 'Roboto', sans-serif;
+	background: url('../images/background.jpg') no-repeat center top; 
+	background-size: cover;
+}
+
+.contenedor{
+	padding: 5px 40px 2px;
+	margin: 235px 100px;
+	width: 600px;
+	border-radius: 10px;
+	background-color: #4D4C4B;
+	color: white;
+	background-color: rgba(77, 76, 75,0.5);
+}
+
+#boton button{
+	background-color: #DB3030;
+	padding: 20px 40px;
+	margin: 20px 0;
+	color: white;
+	line-height: 0px;
+	font-weight: bold;
+	border: 0px; 
+
+}
+
+
+@media screen and (max-width: 900px) { 
+  .contenedor {
+    width:auto;
+    height:auto;
+    font-size:16px; 
+  }
+
+}
+
