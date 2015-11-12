@@ -2,6 +2,11 @@
 	box-sizing:border-box;  /*Mantiene el ancho que uno especifique independientemente  del padding que tenga el elemento,  *{es para todos los elementos }  */
 } 
 
+html, body {
+  height: 100%;
+  padding: 40px;
+}
+
 body{
 
 	font-family: 'Roboto', sans-serif;
@@ -38,4 +43,3 @@ body{
   }
 
 }
-
