@@ -5,18 +5,17 @@
 body{
 
 	font-family: 'Roboto', sans-serif;
-	background: url('../images/background.jpg') no-repeat center top; 
+	background: url('../images/background.jpg') no-repeat 50%; 
 	background-size: cover;
 }
 
 .contenedor{
-	padding: 5px 40px 2px;
-	margin: 235px 100px;
+	padding: 10px;
 	width: 600px;
 	border-radius: 10px;
 	background-color: #4D4C4B;
 	color: white;
-	background-color: rgba(77, 76, 75,0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 }
 
 #boton button{
